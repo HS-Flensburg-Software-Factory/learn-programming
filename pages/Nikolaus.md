@@ -20,7 +20,7 @@ main =
     display scene
 ```
 
-Die Aufrufe `rectangle` und `segment` zeichnen Formen.
+Die Aufrufe `rectangle` und `segment` erzeugen Bilder.
 
 * `rectangle ( 30, 20 )`  
   führt zu:  
@@ -30,9 +30,9 @@ Die Aufrufe `rectangle` und `segment` zeichnen Formen.
   führt zu:  
   ![path](../images/segment.png)
 
-Mit `group` kann man mehrere Formen zu einer zusammenfassen.
-Die Formen, die man zusammenfassen möchte, muss man dabei mit `[` und `]` umschließen und jeweils durch Kommata trennen.
-Der Aufruf `display scene` zeichnet am Ende die Formen, die man definert hat.
+Mit `group` kann man mehrere Bilder zu einem zusammenfassen.
+Die Bilder, die man zusammenfassen möchte, muss man dabei mit `[` und `]` umschließen und jeweils durch Kommata trennen.
+Der Aufruf `display scene` zeichnet am Ende die Bilder, die man definert hat.
 
 Ändern Sie die Datei `Nikolaus.elm` so ab, dass eine Zeichnung der folgenden Art erzeugt wird.
 
