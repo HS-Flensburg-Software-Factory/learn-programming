@@ -85,14 +85,19 @@ wrapModel model _ =
     )
 
 
-wrapUpdate : (msg -> model -> model) -> Msg msg -> Model model -> ( Model model, Cmd (Msg msg) )
+wrapUpdate : (Size -> msg -> model -> model) -> Msg msg -> Model model -> ( Model model, Cmd (Msg msg) )
 wrapUpdate update msg model =
     ( case msg of
         Resize size ->
             { model | size = Just size }
 
         User userMsg ->
-            { model | user = update userMsg model.user }
+            case model.size of
+                Nothing ->
+                    model
+
+                Just size ->
+                    { model | user = update size userMsg model.user }
     , Cmd.none
     )
 
@@ -186,9 +191,19 @@ beginnerModel =
     { mouse = ( 0, 0 ), time = 0 }
 
 
-beginnerView : (( Float, Float ) -> Float -> Picture) -> Model BeginnerModel -> Html (Msg msg)
+beginnerView : (( Float, Float ) -> Float -> Picture) -> BeginnerModel -> Picture
 beginnerView pic model =
-    wrapView (\_ -> pic model.user.mouse model.user.time) model
+    pic model.mouse model.time
+
+
+beginnerUpdate : Size -> BeginnerMsg -> BeginnerModel -> BeginnerModel
+beginnerUpdate size msg model =
+    case msg of
+        BeginnerMove pos ->
+            { model | mouse = ( pos.x - toFloat size.width / 2, pos.y - toFloat size.height / 2 ) }
+
+        BeginnerTime _ ->
+            { model | time = model.time + 1 }
 
 
 display : Picture -> Program () (Model BeginnerModel) (Msg BeginnerMsg)
@@ -212,8 +227,8 @@ displayWithMouseAndTime :
 displayWithMouseAndTime pic =
     Browser.element
         { init = wrapModel beginnerModel
-        , view = beginnerView pic
-        , update = wrapUpdate (\_ model -> model)
+        , view = wrapView (beginnerView pic)
+        , update = wrapUpdate beginnerUpdate
         , subscriptions =
             \_ ->
                 Sub.batch
@@ -244,7 +259,7 @@ displayWithState initialModel view update =
     Browser.element
         { init = wrapModel initialModel
         , view = wrapView view
-        , update = wrapUpdate update
+        , update = wrapUpdate (\_ -> update)
         , subscriptions =
             \_ ->
                 Sub.batch
