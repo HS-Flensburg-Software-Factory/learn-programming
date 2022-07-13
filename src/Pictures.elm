@@ -57,8 +57,6 @@ import Color exposing (Color)
 import Html exposing (Html)
 import Html.Attributes exposing (default)
 import Json.Decode as Decoder exposing (Decoder)
-import Svg exposing (Svg, g, line, polyline, rect, svg)
-import Svg.Attributes exposing (fill, height, points, r, stroke, width, x, x1, x2, y, y1, y2)
 import Task exposing (Task)
 import Time
 
