@@ -4,7 +4,7 @@
 
 # Dritte Aufgabe
 
-Passen Sie die Datei `ColoredSquares.elm` so an, dass von den zehn Quadraten die inneren fünf rot und die äußeren fünf grün sind.
+Passen Sie die Datei `ColoredSquares.elm` im Ordner `src` so an, dass von den zehn Quadraten die inneren fünf rot und die äußeren fünf grün sind.
 
 ```elm
 scene =
@@ -29,8 +29,6 @@ main =
 Das heißt, das Programm soll die folgende Anzeige erzeugen.
 
 ![Farbige Quadrate](../images/colored-squares.png)
-
-[Datei](https://raw.githubusercontent.com/jan-christiansen/Elm-Kurs/master/src/task03/ColoredSquares.elm)
 
 ---
 

@@ -1,6 +1,6 @@
-module Main exposing (..)
+module ColoredSquares exposing (..)
 
-import Lib exposing (..)
+import Pictures exposing (..)
 
 
 scene =
