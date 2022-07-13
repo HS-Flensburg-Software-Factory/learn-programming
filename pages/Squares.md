@@ -4,7 +4,7 @@
 
 # Vierte Aufgabe
 
-Passen Sie die Datei `Squares.elm` so an, dass zehn Quadrate mit den Größen `10`, `20`, ..., `100` gezeichnet werden.
+Passen Sie die Datei `Squares.elm` im Ordner `src` so an, dass zehn Quadrate mit den Größen `10`, `20`, ..., `100` gezeichnet werden.
 
 ```elm
 pic i =
@@ -18,8 +18,6 @@ scene =
 main =
     display scene
 ```
-
-[Datei](https://raw.githubusercontent.com/jan-christiansen/Elm-Kurs/master/src/task04/Squares.elm)
 
 ---
 

@@ -6,7 +6,7 @@
 
 In dieser Aufgabe sollen Sie ein Auge zeichnen, dessen Pupille der Maus folgt.
 Das heißt, das Auge soll immer an der gleichen Stelle stehen, die Pupille soll aber in Richtung der Maus schauen.
-Erweitern Sie dazu die siebte Aufgabe um einen zweiten Kreis.
+Erweitern Sie dazu die siebte Aufgabe (die Datei ) um einen zweiten Kreis.
 Der zweite Kreis stellt den Augapfel dar.
 Der Kreise, der die Maus verfolgt, stellt die Pupille dar.
 

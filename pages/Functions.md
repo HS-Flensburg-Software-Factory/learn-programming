@@ -21,4 +21,4 @@ Wenn wir `pic 6` verwenden, erhalten wir dafür zum Beispiel das gleiche Bild wi
 
 ---
 
-[Weiter](Squares.md)
+[Zur vierten Aufgabe](Squares.md)

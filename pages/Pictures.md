@@ -30,4 +30,4 @@ Dabei ist `image` das Bild, das verschoben wird, und `( x, y )` die Angabe, um w
 
 ---
 
-[Weiter](Re-Use.md)
+[Zur zweiten Aufgabe](Re-Use.md)

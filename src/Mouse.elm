@@ -1,10 +1,14 @@
-module Main exposing (..)
+module Mouse exposing (..)
 
-import Lib exposing (..)
+import Pictures exposing (..)
 
 
 pic i =
-    square (10 * i)
+    let
+        r =
+            10 * i
+    in
+    empty
 
 
 scene =

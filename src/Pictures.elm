@@ -16,6 +16,7 @@ module Pictures exposing
     , dotted
     , ellipse
     , ellipse_
+    , empty
     , filledCircle
     , filledRectangle
     , green
@@ -406,6 +407,11 @@ image =
 group : List Picture -> Picture
 group =
     Collage.group
+
+
+empty : Picture
+empty =
+    Collage.rendered Collage.Text.empty
 
 
 

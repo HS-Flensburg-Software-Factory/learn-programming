@@ -1,14 +1,10 @@
-module Main exposing (..)
+module ColoredCircles exposing (..)
 
-import Lib exposing (..)
+import Pictures exposing (..)
 
 
 pic i =
-    let
-        r =
-            10 * i
-    in
-    empty
+    square (10 * i)
 
 
 scene =

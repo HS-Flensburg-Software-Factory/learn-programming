@@ -1,6 +1,6 @@
-module Main exposing (..)
+module Squares exposing (..)
 
-import Lib exposing (..)
+import Pictures exposing (..)
 
 
 pic i =
