@@ -45,7 +45,6 @@ Wählen Sie den Ordner `src` und anschließend die Datei `Nikolaus.elm`.
 Nun sollten Sie sehen können, was die aktuelle Version der Datei `Nikolaus.elm` zeichnet.
 Wenn Sie an der Datei `Nikolaus.elm` etwas geändert haben, können Sie einfach im Browser "Neu laden" wählen und der Browser zeigt, was die neue Implementierung zeichnet.
 
-
 ---
 
-[Weiter](Forms.md)
+[Weiter](Pictures.md)
