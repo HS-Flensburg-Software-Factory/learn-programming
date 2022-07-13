@@ -200,7 +200,7 @@ beginnerUpdate : Size -> BeginnerMsg -> BeginnerModel -> BeginnerModel
 beginnerUpdate size msg model =
     case msg of
         BeginnerMove pos ->
-            { model | mouse = ( pos.x - toFloat size.width / 2, pos.y - toFloat size.height / 2 ) }
+            { model | mouse = ( pos.x - toFloat size.width / 2, toFloat size.height / 2 - pos.y ) }
 
         BeginnerTime _ ->
             { model | time = model.time + 1 }
