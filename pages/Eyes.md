@@ -4,11 +4,12 @@
 
 # Neunte Aufgabe
 
-In dieser Aufgabe sollen Sie zwei Augen zeichnen, die beide Maus verfolgen.
-Zuerst sollen Sie dazu Ihre Implementierung so abändern, dass Sie die Position des Mittelpunktes des Augapfels angeben können.
-
-Wenn die Darstellung des Auges an einer beliebigen Position funktioniert, fügen Sie ein zweites Auge hinzu.
+In dieser Aufgabe sollen Sie statt eines Auges, zwei Augen zeichnen, die beide die Maus verfolgen.
+Die beiden Augen sollen in einem kleinen Abstand nebeneinander gezeichnet werden.
+Um dies zu erreichen müssen Ihre Definitionen als weitere Information noch die Position des Mittelpunktes erhalten.
+Bei der Berechung der Koordinaten muss dann jeweils berücksichtigt werden, dass das Auge einen verschobenen Mittelpunkt hat.
+Ändern Sie die Datei `Eyes.elm` im Ordner `src` so ab, dass die beiden Augen gezeichnet und die Maus verfolgt wird.
 
 ---
 
-[Weiter](Pendulum.md)
+[Weiter](State.md)

@@ -4,9 +4,10 @@
 
 # Siebte Aufgabe
 
-Implementieren Sie eine Anwendung, in der Sie einen Kreis an der Stelle zeichnen, an der sich die Maus befindet.
-Die Funktion `filedCircle` nimmt eine Farbe und einen Radius und zeichnet einen ausgefüllten Kreis.
+Ändern Sie die Implementierung in der Datei `Follow.elm` im Ordner `src` so ab, dass ein Kreis an der Stelle gezeichnet wird, an der sich die Maus befindet.
+Nutzen Sie dafür die Funktion `filledCircle`.
+Die Funktion `filledCircle` nimmt eine Farbe und einen Radius und zeichnet einen ausgefüllten Kreis.
 
 ---
 
-[Weiter](Eye.md)
+[Zur achten Aufgabe](Eye.md)
