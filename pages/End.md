@@ -1,4 +1,4 @@
-[Zurück](Tetris.md)
+[Zurück](DataTypes.md)
 
 ---
 
