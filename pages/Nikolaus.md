@@ -28,7 +28,7 @@ Die Aufrufe `rectangle` und `segment` erzeugen Bilder.
 
 * `segment ( 0, 0 ) ( 30, 30 )`  
   führt zu:  
-  ![path](../images/segment.png)
+  ![segment](../images/segment.png)
 
 Mit `group` kann man mehrere Bilder zu einem zusammenfassen.
 Die Bilder, die man zusammenfassen möchte, muss man dabei mit `[` und `]` umschließen und jeweils durch Kommata trennen.

@@ -4,5 +4,6 @@
 
 # Ende des Einsteigerkurses Programmierung
 
-An dieser Stelle ist der Kurs beendet, vielen Dank, dass Sie an dem Kurs teilgenommen haben.
-Wenn Sie Interesse daran haben, sich genauer mit der Programmiersprache Elm zu beschäftigen, werfen Sie doch einen Blick auf die Seite [Elm](http://elm-lang.org/) oder studieren Sie Angewandte Informatik an der Hochschule Flensburg.
+Vielen Dank, dass Sie an dem Kurs teilgenommen haben, an dieser Stelle ist der Kurs aktuell leider zu Ende.
+Wenn Sie Spaß an dem Kurs hatten, schreiben Sie doch eine Mail an [Jan Christiansen](jan.christiansen@hs-flensburg.de), vielleicht kommt dann in Zukunft noch die eine oder andere Aufgabe hinzu.
+Wenn Sie Interesse daran haben, sich genauer mit der Programmiersprache Elm zu beschäftigen, werfen Sie doch einen Blick auf die Seite [Elm](http://elm-lang.org/) oder studieren Sie [Angewandte Informatik](https://hs-flensburg.de/studieninteressierte/angebot/bachelor/AI) an der Hochschule Flensburg.

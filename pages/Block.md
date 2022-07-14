@@ -25,4 +25,4 @@ Die dritte Komponente gibt an, um wie viel Grad der Block gedreht ist.
 
 ---
 
-[Zur zwölften Aufgabe](Tetris.md)
+[Zur zwölften Aufgabe](DataTypes.md)
