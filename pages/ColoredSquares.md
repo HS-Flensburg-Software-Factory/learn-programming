@@ -5,6 +5,7 @@
 # Dritte Aufgabe
 
 Passen Sie die Datei `ColoredSquares.elm` im Ordner `src` so an, dass von den zehn Quadraten die inneren fünf rot und die äußeren fünf grün sind.
+Die Datei enthält den folgenden Code.
 
 ```elm
 scene =

@@ -4,7 +4,7 @@
 
 # Sechste Aufgabe
 
-Vervollständigen Sie nun die Datei `Mouse.elm` im Ordner `src` so, dass immer genau die Kreise rot sind, die näher am Koordinatenursprung sind als der Mauszeiger.
+Vervollständigen Sie nun die Datei `Mouse.elm` so, dass immer genau die Kreise rot sind, die näher am Koordinatenursprung sind als der Mauszeiger.
 Alle anderen färben Sie grün.
 Die Datei `Mouse.elm` enthält den folgenden Code.
 

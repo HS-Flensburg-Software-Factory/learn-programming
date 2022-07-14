@@ -1,4 +1,4 @@
-[Zurück](Pendulum.md)
+[Zurück](Eyes.md)
 
 ---
 
@@ -43,7 +43,7 @@ Hier wollen wir zunächst nur auf das Ereignis "Maustaste wurde gedrückt" (`Cli
 Wenn die Maustaste gedrückt wurde, erhöhen wir den Zählerstand um `1`.
 
 * Um auszudrücken, dass sich in jedem anderen Fall (also, falls die Maustaste nicht gedrückt wurde) der Zustand (also der Zähler) nicht ändern soll, verwenden wir die Zeile `_ -> state`.
-Eine solche oder ähnliche Zeile sollte es im Folgenden in jeder Anwenung geben.
+Eine solche oder ähnliche Zeile sollte es im Folgenden in jeder Anwendung geben.
 
 * In der `scene`-Funktion steht nun der jeweils aktuelle Zustand als weiteres Argument zur Verfügung und kann zur Berechnung der Ausgabe (also der zu erzeugenden Anzeige) verwendet werden.
 Hier zeichnen wir einen Kreis dessen Radius dem Zustand entspricht.

@@ -17,7 +17,7 @@ Neben diesen Bildern, die wir bereits kennen, gibt es zum Beispiel noch die folg
 
 * `ellipse ( 30, 20 )`  
   führt zu:  
-  ![oval](../images/oval.png)
+  ![oval](../images/ellipse.png)
 
 * `text "Hallo"`  
   führt zu:  

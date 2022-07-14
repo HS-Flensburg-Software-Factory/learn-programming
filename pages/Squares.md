@@ -5,6 +5,7 @@
 # Vierte Aufgabe
 
 Passen Sie die Datei `Squares.elm` im Ordner `src` so an, dass zehn Quadrate mit den Größen `10`, `20`, ..., `100` gezeichnet werden.
+Die Datei enthält den folgenden Code.
 
 ```elm
 pic i =

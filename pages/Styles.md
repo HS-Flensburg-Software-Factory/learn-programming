@@ -4,7 +4,7 @@
 
 # Stile
 
-Von den Funktionen `rectangle`, `square`, `circle`, `oval`, `segment` gibt es Varianten, bei denen man den Stil der gezeichneten Linie angeben kann.
+Von den Funktionen `rectangle`, `square`, `circle`, `ellipse`, `segment` gibt es Varianten, bei denen man den Stil der gezeichneten Linie angeben kann.
 Der Aufruf `rectangle_ (solid black) ( 30, 20 )` erzeugt zum Beispiel das gleiche Bild wie `rectangle ( 30, 20 )`.
 Der Aufruf `rectangle_ (dashed red) ( 30, 20 )` liefert dagegen das folgende Bild.
 

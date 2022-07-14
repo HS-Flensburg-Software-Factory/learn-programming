@@ -529,5 +529,5 @@ black =
 
 
 rgb : Float -> Float -> Float -> Color
-rgb =
-    Color.rgb
+rgb r g b =
+    Color.rgb255 (round r) (round g) (round b)

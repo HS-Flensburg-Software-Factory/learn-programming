@@ -1,4 +1,4 @@
-[Zurück](Follow.md)
+[Zurück](MousePosition.md)
 
 ---
 
@@ -7,16 +7,16 @@
 Mit einem sogenannten `let`-Ausdruck können lokale Variable definiert werden.
 
 ```elm
-pupil ( x, y ) =
+pic ( x, y ) i =
     let
-        z =
-            sqrt (x ^ 2 + y ^ 2)
+        r =
+            10 * i
     in
-    ... Code, der abhängig von der Mausposition ( x, y ), und der Hypotenuse z ist
+    ... Code, der abhängig von der Mausposition ( x, y ), und dem Radius `r` ist
 ```
 
-Das heißt, hinter dem `in` können Sie die Variable `z` verwenden und die Variable enthält die Wurzel der Quadrate der Werte von `x` und `y`.
+Das heißt, hinter dem `in` können Sie die Variable `r` verwenden und die Variable enthält das zehnfache des Wertes von `i`.
 
 ---
 
-[Zur achten Aufgabe](Eye.md)
+[Zur sechsten Aufgabe](Mouse.md)

@@ -1,5 +1,6 @@
 module Mouse exposing (..)
 
+import Html exposing (i)
 import Pictures exposing (..)
 
 

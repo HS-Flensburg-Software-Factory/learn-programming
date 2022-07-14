@@ -4,8 +4,8 @@
 
 # Zwölfte Aufgabe
 
-In dieser Aufgabe wollen wir unseren sich bewegenden Block etwas näher an ein vollständiges Tetris-Spiel bringen.
-Zeichen Sie zuerst ein hellgraues Rechteck, dass unter dem Block angezeigt wird.
+In dieser Aufgabe wollen wir unseren sich bewegenden Block etwas näher an ein Tetris-Spiel bringen.
+Zeichen Sie zuerst ein hellgraues Rechteck, das hinter dem Block angezeigt wird.
 Das Rechteck soll `300` Pixel breit und `500` Pixel hoch sein.
 Implementieren Sie das folgende Verhalten.
 
