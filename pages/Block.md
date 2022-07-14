@@ -12,8 +12,10 @@ Ersetzen Sie das Quadrat außerdem durch einen Block mit dem folgenden Aussehen.
 
 Als nächstes sollen Sie den gezeichneten Block mit Hilfe der Pfeil-Nach-Oben-Taste drehen.
 Das Event für die Pfeil-Nach-Oben-Taste lautet `Up`.
-Ein Teilbild kann mit Hilfe von `image |> rotate rad` um seinen Mittelpunkt rotiert werden, wobei `rad` ein Winkel in Radiant ist.
-Überlegen Sie sich, wie Sie die Transformation definieren müssen, damit der Block um seinen Mittelpunkt rotiert wird.
+Ein Teilbild kann mit Hilfe von `image |> rotate rad` gegen den Uhrzeigersinn um seinen Mittelpunkt rotiert werden, wobei `rad` ein Winkel in Radiant ist.
+In Elm gibt es eine Konstante `pi`, die Sie zur Berechnung der Rotation nutzen können.
+Der rote Punkt auf dem Block definiert den Punk, um den der Block gedreht wird.
+Überlegen Sie sich, wie Sie die Transformation definieren müssen, damit der Block um diesen Punkt rotiert wird.
 
 Um den Block zu drehen, benötigen wir einen Zustand, der zusätzliche Informationen enthält.
 Genauer gesagt, müssen Sie wissen, um wie viel Grad Ihr Block aktuell gedreht ist.
