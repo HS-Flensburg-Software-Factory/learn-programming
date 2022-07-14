@@ -38,4 +38,4 @@ main =
 
 ---
 
-[Weiter](Follow.md)
+[Zur siebten Aufgabe](Follow.md)
