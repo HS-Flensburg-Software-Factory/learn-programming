@@ -19,6 +19,7 @@ module Pictures exposing
     , empty
     , filledCircle
     , filledRectangle
+    , filledSquare
     , green
     , group
     , image
@@ -264,7 +265,7 @@ displayWithState initialModel view update =
                     [ Sub.map Resize (Browser.Events.onResize Size)
                     , Sub.map User (Browser.Events.onClick (Decoder.map (\_ -> Click) positionDecoder))
                     , Sub.map User (Browser.Events.onKeyDown keyDecoder)
-                    , Sub.map User (Time.every 50 (\_ -> Tick))
+                    , Sub.map User (Time.every 200 (\_ -> Tick))
                     ]
         }
 
@@ -383,8 +384,12 @@ square =
 
 square_ : LineStyle -> Float -> Picture
 square_ s a =
-    Collage.outlined s <|
-        Collage.square a
+    Collage.outlined s (Collage.square a)
+
+
+filledSquare : Color -> Float -> Picture
+filledSquare c s =
+    Collage.filled (Collage.uniform c) (Collage.square s)
 
 
 ngon : Float -> Float -> Picture

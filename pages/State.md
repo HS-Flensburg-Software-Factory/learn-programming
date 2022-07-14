@@ -2,6 +2,8 @@
 
 ---
 
+# Interner Zustand
+
 Um komplexeres Verhalten zu beschreiben, ist es notwendig einen "gemerkten Zustand" zu verwenden.
 Abhängig vom aktuellen Zustand kann die Anwendung dann ihre Anzeige anpassen.
 
@@ -14,7 +16,7 @@ initial =
 
 update event state =
     case event of
-        Space ->
+        Click ->
             state + 1
 
         _ ->
@@ -22,7 +24,7 @@ update event state =
 
 
 scene state =
-    text (toString state)
+    circle state
 
 
 main =
@@ -44,10 +46,10 @@ Wenn die Maustaste gedrückt wurde, erhöhen wir den Zählerstand um `1`.
 Eine solche oder ähnliche Zeile sollte es im Folgenden in jeder Anwenung geben.
 
 * In der `scene`-Funktion steht nun der jeweils aktuelle Zustand als weiteres Argument zur Verfügung und kann zur Berechnung der Ausgabe (also der zu erzeugenden Anzeige) verwendet werden.
-Hier zeigen wir den aktuellen Zählerstand einfach nur an.
+Hier zeichnen wir einen Kreis dessen Radius dem Zustand entspricht.
 
 * Mittels der `displayWithState`-Funktion bringen wir schließlich alles zusammen.
 
 ---
 
-[Weiter](Counter.md)
+[Zur zehnten Aufgabe](Counter.md)
