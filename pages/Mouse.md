@@ -36,6 +36,13 @@ main =
     displayWithMouse scene
 ```
 
+Das Programm soll die folgende Anzeige erzeugen.
+Der Mauszeiger illustriert, dass die Kreise, die näher am Ursprung sind, rot gezeichnet werden, während die Kreise, die sich weiter außen befinden, grün gezeichnet werden.
+
+![Farbige Kreise](../images/mouse.png)
+
+Um die direkte Entfernung des Mauszeigers zum Ursprung zu berechnen, kann der Satz des Pythagoras verwendet werden.
+
 ---
 
 [Zur siebten Aufgabe](Follow.md)
