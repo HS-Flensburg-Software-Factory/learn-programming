@@ -5,13 +5,14 @@
 # Elfte Aufgabe
 
 Erweitern Sie das Programm `Block.elm` so, dass Sie das Quadrat mit den Pfeiltasten nach links und rechts bewegen können.
+Die `Event`s für diese Pfeiltasten heißen `Left` und `Right`.
 Bei jedem Schritt soll der Block dabei um `20` Pixel bewegt werden.
 Ersetzen Sie das Quadrat außerdem durch einen Block mit dem folgenden Aussehen.
 
 ![Block](../images/block.png)
 
-Als nächstes sollen Sie den gezeichneten Block mit Hilfe der Pfeil-Nach-Oben-Taste drehen.
-Das Event für die Pfeil-Nach-Oben-Taste lautet `Up`.
+Als nächstes sollen Sie den gezeichneten Block mit Hilfe der Pfeil-Nach-Oben-Taste um 90 Grad drehen.
+Das `Event` für die Pfeil-Nach-Oben-Taste lautet `Up`.
 Ein Teilbild kann mit Hilfe von `image |> rotate rad` gegen den Uhrzeigersinn um seinen Mittelpunkt rotiert werden, wobei `rad` ein Winkel in Radiant ist.
 In Elm gibt es eine Konstante `pi`, die Sie zur Berechnung der Rotation nutzen können.
 Der rote Punkt auf dem Block definiert den Punk, um den der Block gedreht wird.
