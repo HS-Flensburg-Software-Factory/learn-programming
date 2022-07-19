@@ -4,7 +4,7 @@
 
 # Komplexer Zustand
 
-In der Regel benötigt man zur Modellierung des potentiell veränderlichen Zustands eines Systems oder Programms mehr als eine einzelne Zahl.
+In der Regel benötigt man zur Modellierung des potenziell veränderlichen Zustands eines Systems oder Programms mehr als eine einzelne Zahl.
 Das folgende Programm verwendet zum Beispiel zwei Zahlen als Zustand.
 
 ```elm

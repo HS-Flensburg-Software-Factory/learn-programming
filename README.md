@@ -11,6 +11,9 @@ Um zu illustrieren, was man mit Elm implementieren kann, hier ein paar Beispiele
 - [Visualisierung von Sortieralgorithmen](https://flhansen.github.io/elmgorithm/)
 - [Shoot 'em up](https://hs-flensburg-dst.github.io/abschlussprojekt-pascal_janis/)
 
+In den folgenden Aufgaben werden Zeichnungen auf einer Leinwand programmiert. Die Leinwand entspricht mit ihren Pixeln
+einem Koordinatensystem, dessen Ursprung sich in der Mitte der Anzeige befindet und durch einen roten Punkt markiert ist.
+
 ---
 
 [Zur ersten Aufgabe](pages/Nikolaus.md)
