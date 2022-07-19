@@ -42,6 +42,7 @@ Der Mauszeiger illustriert, dass die Kreise, die näher am Ursprung sind, rot ge
 ![Farbige Kreise](../images/mouse.png)
 
 Um die direkte Entfernung des Mauszeigers zum Ursprung zu berechnen, kann der Satz des Pythagoras verwendet werden.
+Die Funktion zur Berechnung der Quadratwurzel ist `sqrt`, so liefert beispielsweise `sqrt (7 * 7)` als Ergebnis `7`.
 
 ---
 

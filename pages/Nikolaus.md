@@ -22,11 +22,13 @@ main =
 
 Die Aufrufe `rectangle` und `segment` erzeugen Bilder.
 
-* `rectangle ( 30, 20 )`  
+* `rectangle ( breite, höhe )` zeichnet ein Rechteck um den Koordinatenursprung  
+  `rectangle ( 30, 20 )`
   führt zu:  
   ![rectangle](../images/rectangle.png)
 
-* `segment ( 0, 0 ) ( 30, 30 )`  
+* `segment punkt1 punkt2` zeichnet eine Strecke von punkt1 zu punkt2  
+  `segment ( 0, 0 ) ( 30, 30 )`
   führt zu:  
   ![segment](../images/segment.png)
 
