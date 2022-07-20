@@ -29,7 +29,7 @@ Die Aufrufe `rectangle` und `segment` erzeugen Bilder.
 
 * `segment punkt1 punkt2` zeichnet eine Strecke von `punkt1` zu `punkt2`  
   `segment ( 0, 0 ) ( 30, 30 )`
-  führt zu:  
+  führt zum Beispiel zu:  
   ![segment](../images/segment.png)
 
 Mit `group` kann man mehrere Bilder zu einem zusammenfassen.
