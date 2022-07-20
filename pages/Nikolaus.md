@@ -24,7 +24,7 @@ Die Aufrufe `rectangle` und `segment` erzeugen Bilder.
 
 * `rectangle ( breite, höhe )` zeichnet ein Rechteck um den Koordinatenursprung  
   `rectangle ( 30, 20 )`
-  führt zu:  
+  führt zum Beispiel zu:  
   ![rectangle](../images/rectangle.png)
 
 * `segment punkt1 punkt2` zeichnet eine Strecke von `punkt1` zu `punkt2`  
