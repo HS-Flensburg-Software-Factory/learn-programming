@@ -27,7 +27,7 @@ Die Aufrufe `rectangle` und `segment` erzeugen Bilder.
   führt zu:  
   ![rectangle](../images/rectangle.png)
 
-* `segment punkt1 punkt2` zeichnet eine Strecke von punkt1 zu punkt2  
+* `segment punkt1 punkt2` zeichnet eine Strecke von `punkt1` zu `punkt2`  
   `segment ( 0, 0 ) ( 30, 30 )`
   führt zu:  
   ![segment](../images/segment.png)
